@@ -1,0 +1,12 @@
+html{
+    box-sizing: border-box;
+    background-color: pink;
+}
+html *, html *:before, html *:after, html *::before, html *::after{
+    box-sizing: inherit;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}

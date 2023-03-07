@@ -1,0 +1,139 @@
+html{
+    box-sizing: border-box;
+    background-color: pink;
+}
+html *, html *:before, html *:after, html *::before, html *::after{
+    box-sizing: inherit;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    font-weight: normal;
+    font-size: 100%;
+    padding: 0;
+    margin: 0;
+}
+dl,
+dd,
+menu,
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+ol{
+    list-style-type: decimal;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    border-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.tieude{
+    font-size: 40px;
+    font-family:'Courier New', Courier, monospace ;
+    color: palevioletred;
+    background-color: whitesmoke;
+}
+.tieude p{
+    margin-left: 150px;
+    margin-top: 30px;
+}
+.tv{
+    font-family:'Courier New', Courier, monospace ;
+    font-size: 20px;
+    margin-top: 10px;
+    padding-left: 20px;
+    margin-bottom: 5px;
+    color: whitesmoke;
+    font-weight: 900;
+}
+.ip{
+    height: 55px;
+    width: 160px;
+    margin-left: 600px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-radius: 25px;
+    background-color: whitesmoke;
+    border: none;
+    color: palevioletred;
+    font-size: 18px;
+}
+.conten{
+    font-family: 'Courier New', Courier, monospace;
+    color: palevioletred;
+    font-weight: 900;
+    font-size: 26px;
+    padding-left: 450px;
+    margin-top: 20px;
+    background-color: whitesmoke;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+    position: relative;
+}
+.slider{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    transition: all 0.5s;
+    overflow: hidden;
+}
+.slider .slide{
+    width: 20%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    transition: 0.5s;
+}
+.slider .slide:nth-child(1){
+    background: url(https://scontent.fhan2-4.fna.fbcdn.net/v/t1.15752-9/334942029_1344838699396256_1558914410522088430_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=ae9488&_nc_ohc=BwnX5rl99SUAX9OgNfe&_nc_ht=scontent.fhan2-4.fna&oh=03_AdS431xKeKjBiLMQ5pkw8cQusqGxNbWHYR8FtRDLWPwWCw&oe=642D7EA2);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.slider .slide:nth-child(2){
+    background: url(https://scontent.fhan2-3.fna.fbcdn.net/v/t1.15752-9/334972445_2585805878287999_4261176694012070321_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=ae9488&_nc_ohc=d-k3QAEUW2gAX-thpn6&_nc_ht=scontent.fhan2-3.fna&oh=03_AdQdSaVicx6mynjHZviVxdF6SGbmWk_RdFOwJRKUusESgA&oe=642D8F54);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.slider .slide:nth-child(3){
+    background: url(https://scontent.fhan2-3.fna.fbcdn.net/v/t1.15752-9/334935766_428235392845693_724677094999515036_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=ae9488&_nc_ohc=9TWaTWtanzUAX-eSQXi&_nc_ht=scontent.fhan2-3.fna&oh=03_AdTQusObmK5dXo1D4SHCFZT3058ZSE2Wf_fthg6GFLoOPw&oe=642D6B8C);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.slider .slide:nth-child(4){
+    background: url(https://scontent.fhan2-3.fna.fbcdn.net/v/t1.15752-9/322084348_912607060174578_563339108367975398_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=ae9488&_nc_ohc=S9S-CHgAs_gAX-5lVGf&_nc_ht=scontent.fhan2-3.fna&oh=03_AdTGmOi9gXAC6Gt8xsrhWFtpfSdyT79DTQ7gTjbI4Jt3Rw&oe=642D7CC9);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.slider .slide:nth-child(5){
+    background: url(https://scontent.fhan2-3.fna.fbcdn.net/v/t1.15752-9/334963869_586842089777631_2600240306068797389_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=ae9488&_nc_ohc=2BZkN2sMruUAX_bidh-&_nc_ht=scontent.fhan2-3.fna&oh=03_AdQTaElXnZzbCrm4pxEj3eZSLzgjWcm_ASBTIebNiDHfOQ&oe=642D98AA);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.slider .slide:hover{
+    width: 60%;
+    cursor: pointer;
+}
